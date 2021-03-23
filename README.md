@@ -56,8 +56,10 @@ npm run start-dev
 
 To install packages dependencies and launch the project:
 
-```npm install```
-```npm start```
+```
+npm install
+npm start
+```
 
 5. Run the Course flow site
 
