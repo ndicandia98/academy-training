@@ -54,7 +54,7 @@ npm run start-dev
 
 * Go to "/packages/apps/course-builder"
 
-To install packages dependencies and launch the project:
+* To install packages dependencies and launch the project:
 
 ```
 npm install
@@ -65,12 +65,9 @@ npm start
 
 * Go to "/packages/apps/course-flow"
 
-To install to install packages dependencies run:
+* To install to install packages dependencies and launch the project run:
 
-```npm install```
-
-To launch the project run:
-
-```npm start```
-
-
+```
+npm install
+npm start
+```
