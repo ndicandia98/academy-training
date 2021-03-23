@@ -58,12 +58,9 @@ npm run start-dev
 
 * Go to "/packages/apps/course-builder"
 
-To install packages dependencies run:
+To install packages dependencies and launch the project:
 
 ```npm install```
-
-To launch the project run:
-
 ```npm start```
 
 5. Run the Course flow site
