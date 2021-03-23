@@ -48,12 +48,12 @@ mongod --dbpath ~/data/db
 
 * Go to "/packages/api"
 
-* Run to install packages dependencies:
+* To install packages dependencies run:
 ```
 npm install
 ``` 
 
-* Run  to execute the API locally.
+* To execute the API locally run:
 ```
 npm run start-dev
 ```
