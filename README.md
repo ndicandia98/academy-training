@@ -34,7 +34,7 @@ _This guide will help you to know how Academy works and what you need to run the
 
 go to LMS [repo](https://github.com/cebroker/lms) and clone.
 
-_how to run the sites resume_
+### how to run the sites 📝
 
 1. Ask for .env files for API / Course Builder / Course Flow projects and add add them to the appropiate repositories.
 
