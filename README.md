@@ -24,7 +24,7 @@ _This guide will help you to know how Academy works and what you need to run the
 * AWS
 * React
 
-First phase 1️⃣
+## First phase 1️⃣
 
 go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps.
 
