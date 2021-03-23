@@ -24,13 +24,22 @@ _This guide will help you to know how Academy works and what you need to run the
 * AWS
 * React
 
+### Prerequisites 📋
+
+[MongoDB](https://www.mongodb.com/try/download/community) - For Database
+[Postman](https://www.postman.com/) - for APIs
+
 ## First phase 1️⃣
 
-go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps.
+go to LMS [repo](https://github.com/cebroker/lms) and clone.
 
 _how to run the sites resume_
 
 1. Ask for .env files for API / Course Builder / Course Flow projects and add add them to the appropiate repositories.
+
+2. Add [HOSTS](https://www.dalendesign.com/webpress-blog/webmaster-tools/edit-hosts-file-in-mac-terminal/)
+
+* In each .env file you are going to find HOSTS variable like 'COURSE_BUILDER_URL' or 'COURSE_STUDY_URL'
 
 2. Run the database
 
