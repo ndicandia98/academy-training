@@ -44,15 +44,11 @@ mongod --dbpath ~/data/db
 
 * Go to "/packages/api"
 
-* To install packages dependencies run:
+* To install packages dependencies and execute the API locally run:
 ```
 npm install
-``` 
-
-* To execute the API locally run:
-```
 npm run start-dev
-```
+``` 
 
 4. Run the Course builder site
 
