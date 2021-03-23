@@ -26,8 +26,8 @@ _This guide will help you to know how Academy works and what you need to run the
 
 ### Prerequisites 📋
 
-[MongoDB](https://www.mongodb.com/try/download/community) - For Database
-[Postman](https://www.postman.com/) - for APIs
+* [MongoDB](https://www.mongodb.com/try/download/community) - For Database
+* [Postman](https://www.postman.com/) - for APIs
 
 ## First phase 1️⃣
 
