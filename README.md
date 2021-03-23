@@ -2,7 +2,7 @@
 
 ## Getting Started 🚀
 
-_This guide will help you to know how the academy works and what you need to run the different environments_
+_This guide will help you to know how Academy works and what you need to run the different environments_
 
 ### Glossary 📓
 
@@ -23,5 +23,9 @@ _This guide will help you to know how the academy works and what you need to run
 * Mongo Db
 * AWS
 * React
+
+First phase 1️⃣
+
+_How to run the sites_
 
 
