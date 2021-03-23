@@ -19,7 +19,7 @@ _This guide will help you to know how Academy works and what you need to run the
 * Node + Express
 * Jest
 * Styled components
-* Microservicios
+* Microservices
 * Api Rest
 * Mongo Db
 * AWS
