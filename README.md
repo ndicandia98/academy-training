@@ -12,6 +12,7 @@ _This guide will help you to know how Academy works and what you need to run the
 * Course flow = Course content view (Licensee).
 * Course Builder = Create and edit course view (Provider).
 * Monorepo = Repository that includes several projects within it.
+* AWS = Amazon Web Services
 
 ### Technologies Involved 🛠️
 
