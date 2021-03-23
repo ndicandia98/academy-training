@@ -58,3 +58,28 @@ npm install
 npm run start-dev
 ```
 
+4. Run the Course builder site
+
+* Go to "/packages/apps/course-builder"
+
+To install packages dependencies run:
+
+```npm install```
+
+To launch the project run:
+
+```npm start```
+
+5. Run the Course flow site
+
+* Go to "/packages/apps/course-flow"
+
+To install to install packages dependencies run:
+
+```npm install```
+
+To launch the project run:
+
+```npm start```
+
+
