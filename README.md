@@ -30,7 +30,7 @@ go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps.
 
 _how to run the sites resume_
 
-1. Ask for .env files for API / Course Builder and Course Flow projects.
+1. Ask for .env files for API / Course Builder / Course Flow projects and add add them to the appropiate repositories.
 
 2. Run the database
 
