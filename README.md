@@ -36,11 +36,7 @@ _how to run the sites resume_
 
 ```
 mongod
-```
-
-If doesn't work try: 
-
-```
+or
 mongod --dbpath ~/data/db
 ```
 
