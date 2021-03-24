@@ -29,7 +29,7 @@ _This guide will help you to know how Academy works and what you need to run the
 
 * [MongoDB](https://www.mongodb.com/try/download/community) - for Database
 * [Postman](https://www.postman.com/) - for API
-* [Robo 3T](![image](https://user-images.githubusercontent.com/79062545/112222500-9dc3c280-8bf6-11eb-973a-b350c7473ffe.png) - for DB Management
+* [Robo 3T](https://robomongo.org/) - for DB Management
 )
 
 ## First phase 1️⃣
