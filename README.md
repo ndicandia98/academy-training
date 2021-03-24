@@ -36,6 +36,8 @@ _This guide will help you to know how Academy works and what you need to run the
 
 _In this part of the training you are going to get involve with the product and understand how it works_
 
+### Topics
+
 * Small talk about CEB and LMS
 * Show test sites: CEB, Course builder and Course flow
 * Scaffolding, monorepo, tecnologies concepts
@@ -88,12 +90,18 @@ course.study.dev.evercheck.com/75f9e09b-9645-4928-b010-a871bf5bbf07
 
 ## Second phase 2️⃣ (working)
 
-_LMS works like monorepo porque en un solo repositorio encontramos la api y ambos modulos del las que son dos proyectos distintos pero se alojan dentro del mismo repositorio_
+In this pahse we are going to be getting involve with LMS [diagram](https://user-images.githubusercontent.com/13154205/64726528-77b75100-d49c-11e9-9ed8-4b2106d55f97.png)
 
-Estos proyectos dentro de los son:
+### Topics
 
-Course builder: el constructor de cursos para los providers / teachers
-Course flow: es la visualization de los cursos para los licensees
+*
+
+- LMS works like monorepo cause it have more than one project inside
+
+These projects are:
+
+Course builder: course builder dashboard for providers / teachers
+Course flow: courses view for licensees
 
 LMS es el core de la plataforma mientras que cebroker y evercheck consumen sus recursos mediante code injections que sirve para modificar el core (lms) para manipular su información de la maneras en que lo requieran sin modificar directamente el core (lms)
 
