@@ -71,7 +71,7 @@ _go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps_
 for example
 
 ```
-http://course.builder.dev.evercheck.com/1c5cd9c3-c6ae-4405-9e5c-712c71dbc643
+http://course.builder.dev.evercheck.com:3000/1c5cd9c3-c6ae-4405-9e5c-712c71dbc643
 ```
 
 6. Run the Course flow site
@@ -85,7 +85,7 @@ http://course.builder.dev.evercheck.com/1c5cd9c3-c6ae-4405-9e5c-712c71dbc643
 for example
 
 ```
-course.study.dev.evercheck.com/75f9e09b-9645-4928-b010-a871bf5bbf07
+course.study.dev.evercheck.com:3000/75f9e09b-9645-4928-b010-a871bf5bbf07
 ```
 
 ## Second phase 2️⃣
@@ -110,8 +110,6 @@ These projects are:
 
 _LMS is the CORE platform while CE Broker and EverCheck consume LMS resources through code injections that serves to modify LMS core to manipulate the information on way they need it instead of modify original LMS_
 
-
-
 ### How to run the sites (Practice)📝
 
 _Like in the first phase you have to run the projects but in this case forks projects_
@@ -122,6 +120,12 @@ _For each project you need to run API / Course Builder / Course Flow_
 
 [CE Broker](https://github.com/cebroker/ceb-now)
 [EverCheck](https://github.com/cebroker/ec-lms)
+
+_if you followed the steps correctly at this point you should have run 9 projects, 3 projects per repo_
+
+_Those projects are: API | Course Builder | Course flow_
+
+_The repositories we have cloned are: lms | ceb-now | ec-lms
 
 ## Third phase 3️⃣ (working)
 
