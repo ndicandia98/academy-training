@@ -12,6 +12,7 @@ _This guide will help you to know how Academy works and what you need to run the
 * Course flow = Course content view (Licensee).
 * Course Builder = Create and edit course view (Provider).
 * Monorepo = Repository that includes several projects within it.
+* Scaffolding = 
 * AWS = Amazon Web Services
 
 ### Technologies Involved 🛠️
@@ -30,11 +31,19 @@ _This guide will help you to know how Academy works and what you need to run the
 * [MongoDB](https://www.mongodb.com/try/download/community) - for Database
 * [Postman](https://www.postman.com/) - for API
 * [Robo 3T](https://robomongo.org/) - for DB Management
-)
 
 ## First phase 1️⃣
 
-_In this part of the training you are going to 
+_In this part of the training you are going to get involve with the product and understand how it works_
+
+* Small talk about CEB and LMS
+* Show test sites: CEB, Course builder and Course flow
+* Scaffolding, monorepo, tecnologies
+* Ways to run sites: independent or docker
+
+### Homework
+
+_Clone repositories run them and use .env files_
 
 go to LMS [repo](https://github.com/cebroker/lms) and clone.
 
