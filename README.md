@@ -45,7 +45,7 @@ _In this part of the training you are going to get involve with the product and 
 
 _Clone repositories run them and use .env files_
 
-### How to run the sites 📝
+### How to run the sites (Practice) 📝
 
 _go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps_
 
@@ -109,6 +109,19 @@ These projects are:
 * Course flow: courses view for licensees
 
 _LMS is the CORE platform while CE Broker and EverCheck consume LMS resources through code injections that serves to modify LMS core to manipulate the information on way they need it instead of modify original LMS_
+
+
+
+### How to run the sites (Practice)📝
+
+_Like in the first phase you have to run the projects but in this case forks projects_
+
+_For each project you need to run API / Course Builder / Course Flow_
+
+#### Forks Projects
+
+[CE Broker](https://github.com/cebroker/ceb-now)
+[EverCheck](https://github.com/cebroker/ec-lms)
 
 ## Third phase 3️⃣ (working)
 
