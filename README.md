@@ -38,16 +38,14 @@ _In this part of the training you are going to get involve with the product and 
 
 * Small talk about CEB and LMS
 * Show test sites: CEB, Course builder and Course flow
-* Scaffolding, monorepo, tecnologies
+* Scaffolding, monorepo, tecnologies concepts
 * Ways to run sites: independent or docker
-
-### Homework
 
 _Clone repositories run them and use .env files_
 
-go to LMS [repo](https://github.com/cebroker/lms) and clone.
+### How to run the sites 📝
 
-### how to run the sites 📝
+_go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps_
 
 1. Ask for .env files for API / Course Builder / Course Flow projects and add them to the appropiate repositories.
 
@@ -56,42 +54,13 @@ go to LMS [repo](https://github.com/cebroker/lms) and clone.
 * In each .env file you are going to find HOSTS variable like 'COURSE_BUILDER_URL' or 'COURSE_STUDY_URL'
 * Add these urls to [HOSTS](https://www.dalendesign.com/webpress-blog/webmaster-tools/edit-hosts-file-in-mac-terminal/) file.
 
-3. Run the database
+3. Connect MongoDB
 
-```
-mongod
-or
-mongod --dbpath ~/data/db
-```
+- When you try to to connect MongoDB with ```mongod``` and doesn't work, follow those [steps] to try to fix it or simply try ```mongod --dbpath ~/data/db```
 
-If you want to play with some test data locally, to generate some seeds in the database run:
+4. Run the Course Builder site
 
-```
-npm run seed
-```
-
-4. Run the API
-
-* Go to "/packages/api"
-
-* To install packages dependencies and execute the API locally run:
-```
-npm install
-npm run start-dev
-```
-
-* To fill data
-
-5. Run the Course builder site
-
-* Go to "/packages/apps/course-builder"
-
-* To install packages dependencies and launch the project:
-
-```
-npm install
-npm start
-```
+- If you followed all the [LMS](https://github.com/cebroker/lms) steps correctly:
 
 * You are going to see an empty window, to resolve this you need to add the 'clientCourseId' at final of the url
 * Use Robot 3t to find it, 'clientCourseId' is on 'courses' table
@@ -105,14 +74,7 @@ http://course.builder.dev.evercheck.com/1c5cd9c3-c6ae-4405-9e5c-712c71dbc643
 
 6. Run the Course flow site
 
-* Go to "/packages/apps/course-flow"
-
-* To install to install packages dependencies and launch the project run:
-
-```
-npm install
-npm start
-```
+- If you followed all the [LMS](https://github.com/cebroker/lms) steps correctly:
 
 * You are going to see an empty window, to resolve this you need to add the 'clientLicenseeId' at final of the url
 * Use Robot 3t to find it, 'clientLicenseeId' is on 'licensees' table
@@ -124,7 +86,7 @@ for example
 course.study.dev.evercheck.com/75f9e09b-9645-4928-b010-a871bf5bbf07
 ```
 
-## Second phase 2️⃣
+## Second phase 2️⃣ (working)
 
 _LMS works like monorepo porque en un solo repositorio encontramos la api y ambos modulos del las que son dos proyectos distintos pero se alojan dentro del mismo repositorio_
 
@@ -135,7 +97,7 @@ Course flow: es la visualization de los cursos para los licensees
 
 LMS es el core de la plataforma mientras que cebroker y evercheck consumen sus recursos mediante code injections que sirve para modificar el core (lms) para manipular su información de la maneras en que lo requieran sin modificar directamente el core (lms)
 
-## Third phase 3️⃣
+## Third phase 3️⃣ (working)
 
 Media Api: Api encargada de convertir los videos y contenido multimedia para su menor consumo posible y poder proveerle dicho almacenamiento a LMS CEB y EC. Sin correr esta api sera imposible adjuntar archivos multimedia al course builder.
 
