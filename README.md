@@ -49,7 +49,7 @@ _Clone repositories run them and use .env files_
 
 _go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps_
 
-1. Ask for .env files for API / Course Builder / Course Flow projects and add them to the appropiate repositories.
+1. Ask for .env files for API / Course Builder / Course Flow projects and add them to the appropiate folders.
 
 2. Add Hosts
 
