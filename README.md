@@ -88,22 +88,27 @@ for example
 course.study.dev.evercheck.com/75f9e09b-9645-4928-b010-a871bf5bbf07
 ```
 
-## Second phase 2️⃣ (working)
+## Second phase 2️⃣
 
-In this pahse we are going to be getting involve with LMS [diagram](https://user-images.githubusercontent.com/13154205/64726528-77b75100-d49c-11e9-9ed8-4b2106d55f97.png)
+_In this pahse we are going to be getting involve with LMS diagram_
 
 ### Topics
 
-*
+* Arquitecture with [diagram](https://user-images.githubusercontent.com/13154205/64726528-77b75100-d49c-11e9-9ed8-4b2106d55f97.png)
+* Authentication flow
+* Forks
+* Client Repos
+* .env file
+* Code Injections like way to adapt LMS for each client
 
 - LMS works like monorepo cause it have more than one project inside
 
 These projects are:
 
-Course builder: course builder dashboard for providers / teachers
-Course flow: courses view for licensees
+* Course builder: course builder dashboard for providers / teachers
+* Course flow: courses view for licensees
 
-LMS es el core de la plataforma mientras que cebroker y evercheck consumen sus recursos mediante code injections que sirve para modificar el core (lms) para manipular su información de la maneras en que lo requieran sin modificar directamente el core (lms)
+_LMS is the CORE platform while CE Broker and EverCheck consume LMS resources through code injections that serves to modify LMS core to manipulate the information on way they need it instead of modify original LMS_
 
 ## Third phase 3️⃣ (working)
 
