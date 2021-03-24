@@ -40,7 +40,7 @@ go to LMS [repo](https://github.com/cebroker/lms) and clone.
 
 ### how to run the sites 📝
 
-1. Ask for .env files for API / Course Builder / Course Flow projects and add add them to the appropiate repositories.
+1. Ask for .env files for API / Course Builder / Course Flow projects and add them to the appropiate repositories.
 
 2. Add Hosts
 
