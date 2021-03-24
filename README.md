@@ -56,7 +56,7 @@ _go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps_
 
 3. Connect MongoDB
 
-- When you try to to connect MongoDB with ```mongod``` and doesn't work, maybe this [article](https://stackoverflow.com/questions/58283257/mongodb-cant-find-data-directory-after-upgrading-to-mac-os-10-15-catalina) can help you
+- When you try to to connect MongoDB with ```mongod``` and doesn't work, maybe this [article](https://stackoverflow.com/questions/58283257/mongodb-cant-find-data-directory-after-upgrading-to-mac-os-10-15-catalina) could help you
 
 4. Run the Course Builder site
 
