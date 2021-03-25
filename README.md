@@ -133,8 +133,21 @@ _In this pahse we are going to be getting involve deeply in media api section of
 
 Media Api: Api encargada de convertir los videos y contenido multimedia para su menor consumo posible y poder proveerle dicho almacenamiento a LMS CEB y EC. Sin correr esta api sera imposible adjuntar archivos multimedia al course builder.
 
-* Media Api: Api in charge of convert media content into a specific format for the lowest possible consume and be able to provide this storage to LMS
+* Media Api: Api in charge of convert media content into a specific format for the lowest possible consume and be able to provide this storage to LMS CEB and EC.
 * Without Media Api running it will be imposible to add media content into the course builder
 
 ### How to run api media (Practice)📝
+
+* In this case we only run api projects without course builder and course flow
+
+Api media repos:
+
+[Media Api](https://github.com/cebroker/media-api)
+[CEB Media Api](https://github.com/cebroker/ceb-media-api)
+[EC Media Api](https://github.com/cebroker/ec-media-api)
+
+* Run api media and lms project completely
+* Try to add media content to course builder
+
+_if you followed the steps correctly at this point you should have run 12 projects considering 3 media api projects_
 
