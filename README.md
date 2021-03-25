@@ -9,9 +9,9 @@ _This guide will help you to know how Academy works and what you need to run the
 * CEB = CE Broker
 * EC = EverCheck
 * LMS = Learning Management System
-* Course flow = Course content view (Licensee).
-* Course Builder = Create and edit course view (Provider).
-* Monorepo = Repository that includes several projects within it.
+* Course flow = Course content view (Licensee)
+* Course Builder = Create and edit course view (Provider)
+* Monorepo = Repository that includes several projects within it
 * Scaffolding = 
 * AWS = Amazon Web Services
 
@@ -49,7 +49,7 @@ _Clone repositories run them and use .env files_
 
 _go to LMS [repo](https://github.com/cebroker/lms) clone and follow the steps_
 
-1. Ask for .env files for API / Course Builder / Course Flow projects and add them to the appropiate folders.
+1. Ask for .env files for API / Course Builder / Course Flow projects and add them to the appropiate folders
 
 2. Add Hosts
 
@@ -118,8 +118,8 @@ _For each project you need to run API / Course Builder / Course Flow_
 
 #### Forks Projects
 
-[CE Broker](https://github.com/cebroker/ceb-now)
-[EverCheck](https://github.com/cebroker/ec-lms)
+* [CE Broker](https://github.com/cebroker/ceb-now)
+* [EverCheck](https://github.com/cebroker/ec-lms)
 
 _if you followed the steps correctly at this point you should have run 9 projects, 3 projects per repo_
 
@@ -127,7 +127,14 @@ _Those projects are: API | Course Builder | Course flow_
 
 _The repositories we have cloned are: lms | ceb-now | ec-lms
 
-## Third phase 3️⃣ (working)
+## Third phase 3️⃣
+
+_In this pahse we are going to be getting involve deeply in media api section of LMS [diagram](https://user-images.githubusercontent.com/13154205/64726528-77b75100-d49c-11e9-9ed8-4b2106d55f97.png)_
 
 Media Api: Api encargada de convertir los videos y contenido multimedia para su menor consumo posible y poder proveerle dicho almacenamiento a LMS CEB y EC. Sin correr esta api sera imposible adjuntar archivos multimedia al course builder.
+
+* Media Api: Api in charge of convert media content into a specific format for the lowest possible consume and be able to provide this storage to LMS
+* Without Media Api running it will be imposible to add media content into the course builder
+
+### How to run api media (Practice)📝
 
